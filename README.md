@@ -1,6 +1,5 @@
-# NYC Taxi Demand Prediction: DSC8201Big Data Analytics Exam (Easter 2026)
-
-**Uganda Christian University**
+## NYC Taxi Demand Prediction
+## DSC8201Big Data Analytics Exam (Easter 2026)
 
 End-to-end PySpark pipeline answering: *"Can we predict taxi pickups per
 zone for the next hour accurately enough to guide driver allocation for a
@@ -44,20 +43,20 @@ Check Java:  `java -version`
 
 ## How to run
 
-**Option A — use the real dataset (exam submission path)**
+**Option A: use the real dataset (exam submission path)**
 
 ```bash
 # 1. Drop the NYC Taxi file(s) into data/raw/
 #    (CSV or Parquet; the notebook auto-detects)
-rm -f data/raw/sample_taxi.csv                  # remove the synthetic file
+rm -f data/raw/sample_taxi.csv                  ## remove the synthetic file
 cp /path/to/yellow_tripdata_*.parquet data/raw/
 
 # 2. Launch Jupyter and run all cells
 jupyter lab notebook/NYC_Taxi_Demand_Pipeline.ipynb
-#   Kernel  →  Restart Kernel and Run All Cells
+#   Kernel  ->  Restart Kernel and Run All Cells
 ```
 
-**Option B — validate the pipeline on synthetic data first**
+**Option B: validate the pipeline on synthetic data first**
 
 ```bash
 python src/generate_sample_data.py --rows 200000
@@ -95,6 +94,3 @@ jupyter lab notebook/NYC_Taxi_Demand_Pipeline.ipynb
 - [x] Architecture diagram (PNG + SVG)
 - [x] Run-summary metrics
 - [x] Reproducible — single run, seed pinned (SEED = 42)
-- [ ] 6-page PDF report (written after real-data results are in)
-- [ ] Cover page with registration numbers (filled at submission)
-# Big-Data-Analytics-Exam
