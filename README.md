@@ -93,4 +93,4 @@ jupyter lab notebook/NYC_Taxi_Demand_Pipeline.ipynb
 - [x] PySpark codebase (notebook + .py)
 - [x] Architecture diagram (PNG + SVG)
 - [x] Run-summary metrics
-- [x] Reproducible — single run, seed pinned (SEED = 42)
+- [x] Reproducible: single run, seed pinned (SEED = 42)
