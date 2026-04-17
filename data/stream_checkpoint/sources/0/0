@@ -1,0 +1,4 @@
+v1
+{"path":"file:///D:/UCU/UCU%20Easter%202026/Postgraduate/Big%20data/exam/data/stream_input/arrival_00.csv","timestamp":1776094935588,"batchId":0}
+{"path":"file:///D:/UCU/UCU%20Easter%202026/Postgraduate/Big%20data/exam/data/stream_input/arrival_01.csv","timestamp":1776094935609,"batchId":0}
+{"path":"file:///D:/UCU/UCU%20Easter%202026/Postgraduate/Big%20data/exam/data/stream_input/arrival_02.csv","timestamp":1776094935633,"batchId":0}

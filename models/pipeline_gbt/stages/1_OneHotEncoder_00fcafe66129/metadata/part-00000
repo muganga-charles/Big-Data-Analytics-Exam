@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1776081997446,"sparkVersion":"3.5.1","uid":"OneHotEncoder_00fcafe66129","paramMap":{"outputCols":["PULocationID_ohe"],"handleInvalid":"keep","inputCols":["PULocationID_idx"]},"defaultParamMap":{"dropLast":true,"outputCol":"OneHotEncoder_00fcafe66129__output","handleInvalid":"error"}}
